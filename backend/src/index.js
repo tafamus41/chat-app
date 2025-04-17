@@ -4,7 +4,7 @@ import dotenv from "dotenv";
 // import cors from "cors";
 
 // import path from "path";
-const app = express();
+
 import { connectDB } from "./lib/db.js";
 
 import authRoutes from "./routes/auth.route.js";
