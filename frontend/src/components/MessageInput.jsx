@@ -71,9 +71,9 @@ const MessageInput = () => {
 
       <form
         onSubmit={handleSendMessage}
-        className="flex items-center gap-2 p-2 w-full"
+        className="flex items-center gap-2 p-1 w-full"
       >
-        <div className="flex items-center gap-2 w-full">
+        <div className="flex items-center gap-1 w-full">
           <input
             type="text"
             className="flex-1 input input-bordered input-sm sm:input-md"
