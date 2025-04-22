@@ -88,8 +88,8 @@ const MessageInput = () => {
 
           <button
             type="button"
-            className={`hidden sm:flex btn btn-circle bg-red-500
-                     ${imagePreview ? "text-emerald-500" : "text-zinc-400"}`}
+            className={`flex btn btn-circle bg-red-500
+                     ${imagePreview ? "text-emerald-500" : "text-zinc-400"} sm:flex`}
             onClick={() => fileInputRef.current?.click()}
           >
             <Image size={20} />
